@@ -1,0 +1,38 @@
+:root {
+    --color-white: #fff;
+    --color-blue: #4eb9f4;
+    --color-green: #6fc125;
+
+    --color-red: #ff5649;
+    --color-red-light: #de6d6e;
+
+    --color-orange: #e48f23;
+    --color-pink: #b73958;
+
+    --color-gray: #696b6a;
+    --color-gray-light: #454545;
+
+    --color-dark: #232427;
+    --color-dark-light: #404040;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+
+    background-color: var(--color-white);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}

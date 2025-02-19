@@ -1,0 +1,20 @@
+.about {
+    padding: 390px 0 70px 0;
+    background: url("../../img/flower.png")no-repeat center/cover;
+
+    .about-title,
+    .about-slogan {
+        text-align: center;
+        color: var(--color-white);
+    }
+
+    .about-title {
+        font-size: 72px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .about-slogan {
+        font-size: 24px;
+    }
+}

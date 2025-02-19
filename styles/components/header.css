@@ -1,0 +1,37 @@
+.header {
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.9);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+
+    .header-logo__link {
+        font-size: 42px;
+
+        .header-logo__text {
+            color: var(--color-dark);
+        }
+
+        .header-logo__text--pink {
+            color: var(--color-pink);
+        }
+    }
+
+    .header-nav__link {
+        text-transform: capitalize;
+        margin-right: 30px;
+        font-size: 17px;
+        font-weight: 400;
+
+        color: var(--color-gray-light);
+    }
+}
+
+.btn-icon {
+    width: 30px;
+    height: 20px;
+    object-fit: contain;
+}

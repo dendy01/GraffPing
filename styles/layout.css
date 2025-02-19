@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.fx {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fx-sb {
+    justify-content: space-between;
+}
+
+.fx-jc {
+    justify-content: center;
+}
+
+.fx-ac {
+    align-items: center;
+}
+
+.btn {
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+
+    color: var(--color-white);
+    background-color: var(--color-red-light);
+
+    i {
+        font-size: 15px;
+    }
+}
+
+.btn:hover {
+    background-color: var(--color-red);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
