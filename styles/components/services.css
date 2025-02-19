@@ -41,6 +41,12 @@
                 font-size: 92px;
             }
 
+            .services-icon__img {
+                width: 90px;
+                height: 90px;
+                object-fit: cover;
+            }
+
             .services-icon__item-desc {
                 width: 75%;
                 font-size: 12px;
@@ -62,8 +68,8 @@
         .services-icon__item:nth-child(3) {
             background-color: var(--color-red);
 
-            .services-icon__item-text,
-            i {
+            .services-icon__img,
+            .services-icon__item-text {
                 opacity: .4;
             }
         }

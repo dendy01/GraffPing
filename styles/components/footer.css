@@ -25,7 +25,6 @@
 
     .footer-menu__item:nth-child(1) {
         margin-top: 0;
-        line-height: 1;
     }
 
     .footer-social__icons {
@@ -35,7 +34,6 @@
             width: 55px;
             height: 55px;
             border-radius: 100%;
-            font-size: 32px;
 
             background-color: var(--color-gray);
 
@@ -50,6 +48,16 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+
+                .icon-item {
+                    object-fit: contain;
+                }
+            }
+        }
+
+        .footer-social__icons-icon:nth-child(1) {
+            .icon-item {
+                object-fit: cover;
             }
         }
     }
